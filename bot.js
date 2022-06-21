@@ -7,7 +7,7 @@ const T = new Twit(config);
 
 const ferias = "08/19/2022";
 const aulas = "04/11/2022";
-const dataHoje = new Date().getTime();
+const dataHoje = new Date();
 const dias = 1000 * 60 * 60 * 24;
 
 const qtosDiasParaFerias = (ehDataFerias = true) => {
@@ -40,7 +40,7 @@ function botInit() {
     );
   }
   if (qtosDias < 0) {
-    Bot.post(
+    T.post(
       "statuses/update",
       {
         status: `Faltam ${qtosDiasAulas} dias para o início das aulas 👀`
