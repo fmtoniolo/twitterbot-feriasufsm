@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 351c7be0f1e7ade287dacdacea6fa1cca103de02
 # Twitter bot - Férias UFSM
 #### Feito em Node.js e hospedado no Heroku.
 
