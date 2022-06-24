@@ -17,7 +17,7 @@ const qtosDiasParaFerias = (ehDataFerias = true) => {
   console.log(date1);
   const date2 = dataHoje / dias;
   console.log(date2);
-  const qtosDias = date1 - date2;
+  const qtosDias = Math.ceil(date1 - date2);
   console.log(qtosDias)
   return qtosDias;
 };
