@@ -58,5 +58,5 @@ function botInit() {
     );
   }
 }
-#botInit();
-#setInterval(botInit, dias);
+//botInit();
+//setInterval(botInit, dias);
