@@ -22,8 +22,6 @@ const qtosDiasParaFerias = (ehDataFerias = true) => {
   return qtosDias;
 };
 
-const qtosDias = qtosDiasParaFerias(true);
-
 
 
 function botInit() {
