@@ -8,11 +8,14 @@ const T = new Twit(config);
 const ferias = "08/19/2022";
 const aulas = "04/11/2022";
 const dataHoje = new Date();
+console.log(dataHoje);
 const dias = 1000 * 60 * 60 * 24;
 
 const qtosDiasParaFerias = (ehDataFerias = true) => {
   const date1 = Math.round(Date.parse(ehDataFerias ? ferias : aulas) / dias);
+  console.log(date1);
   const date2 = Math.round(dataHoje / dias);
+  console.log(date2);
   const qtosDias = date1 - date2;
   return qtosDias;
 };
@@ -55,5 +58,5 @@ function botInit() {
     );
   }
 }
-botInit();
-setInterval(botInit, dias);
+#botInit();
+#setInterval(botInit, dias);
