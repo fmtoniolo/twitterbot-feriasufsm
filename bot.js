@@ -3,7 +3,7 @@ console.log("tchê!");
 const Twit = require("twit");
 const config = require("./config.js");
 
-const T = new Twit(config);
+//const T = new Twit(config);
 
 const ferias = "08/19/2022";
 const aulas = "04/11/2022";
