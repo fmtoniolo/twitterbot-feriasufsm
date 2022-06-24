@@ -1,7 +1,7 @@
 console.log("tchê!");
 
 const Twit = require("twit");
-//const config = require("./config.js");
+const config = require("./config.js");
 
 const T = new Twit(config);
 
