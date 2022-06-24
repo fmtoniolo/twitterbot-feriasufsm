@@ -12,8 +12,6 @@ console.log(dataHoje);
 const dias = 1000 * 60 * 60 * 24;
 
 
-const qtosDias = qtosDiasParaFerias(true);
-
 const qtosDiasParaFerias = (ehDataFerias = true) => {
   const date1 = Math.round(Date.parse(ehDataFerias ? ferias : aulas) / dias);
   console.log(date1);
@@ -22,6 +20,10 @@ const qtosDiasParaFerias = (ehDataFerias = true) => {
   const qtosDias = date1 - date2;
   return qtosDias;
 };
+
+const qtosDias = qtosDiasParaFerias(true);
+
+
 
 function botInit() {
   const qtosDias = qtosDiasParaFerias(true);
