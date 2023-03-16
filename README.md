@@ -1,4 +1,5 @@
 # Twitter bot - Férias UFSM
+## Se vc está procurando a fonte, aqui está a mais atualizada: [Bot férias UFSM 2.0](https://github.com/fmtoniolo/twitterbot-feriasufsm-2.0)
 #### Feito em Node.js e hospedado no Heroku.
 
 Projeto para um bot do Twitter que publica diariamente quantos dias faltam para as férias na UFSM.
